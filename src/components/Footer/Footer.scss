@@ -1,0 +1,10 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+
+    > a > svg {
+        font-size: 2rem;
+    }
+}
