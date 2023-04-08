@@ -10,8 +10,8 @@ export default function Header() {
 
     var headerContent = (
         <div className="fade-in">
-            <Link href="">Accueil</Link>
-            <Link href="">Recettes</Link>
+            <Link to="">Accueil</Link>
+            <Link to="">Recettes</Link>
         </div>
     )
 
@@ -22,7 +22,7 @@ export default function Header() {
     return (
         <header>
             <div>
-                <Link href="/">Stéphanie en cuisine</Link>
+                <Link to="/">Stéphanie en cuisine</Link>
                 <div onClick={deployHeader}><GoThreeBars /></div>
             </div>
             {headerIsDeployed && headerContent}
