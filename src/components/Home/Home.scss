@@ -20,7 +20,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        max-width: 90vw;
 
         > .rs-bar {
             margin-top: 1rem;
@@ -31,6 +30,7 @@
             font-size: 2rem;
             background-color: rgb(184, 175, 125);
             width: 20rem;
+            max-width: 80vw;
         }
     }
 
